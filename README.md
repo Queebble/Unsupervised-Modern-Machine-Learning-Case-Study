@@ -62,25 +62,9 @@ It demonstrates skills in dimensionality reduction, clustering, time-series fore
 
 ## 📁 Files
 
-* `Assignment2.ipynb`: Full notebook containing all models and analyses
+* `Unsupervised-Modern-Machine-Learning-Case-Study.ipynb`: Full notebook containing all models and analyses
 * Dataset files provided through coursework (not included in repository)
 
-## 🧠 Key Insights
-
-* PCA captures global structure, while t-SNE reveals finer-grained clusters
-* K-Means identifies meaningful risk-related groupings in automotive data
-* Multivariate LSTM models outperform univariate baselines for pasture growth forecasting
-* BERT significantly outperforms traditional TF-IDF + logistic regression approaches
-* T5 produces coherent answers even with limited training data, but lags behind fully pretrained models
-
-## 🔄 Reproducibility
-
-To run this project:
-
-1. Clone the repository
-2. Open the notebook in Jupyter
-3. Install dependencies (`pip install -r requirements.txt` if provided)
-4. Run each section sequentially
 
 ---
 
