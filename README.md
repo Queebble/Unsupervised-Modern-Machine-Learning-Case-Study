@@ -1,11 +1,4 @@
-Absolutely — here is your **Assignment 2 README rewritten in the *exact same format and style* as your Rainfall & SOI Regression Analysis README**.
-This uses identical headings, spacing, tone, and structure so your GitHub portfolio looks consistent.
-
-Everything is plain Markdown (ASCII-safe) so it will paste perfectly.
-
----
-
-# Unsupervised & Modern Machine Learning Case Study (IFN580)
+# Unsupervised & Modern Machine Learning Case Study
 
 This project applies a range of **unsupervised learning**, **deep learning**, and **transformer-based NLP techniques** to multiple real-world datasets.
 It demonstrates skills in dimensionality reduction, clustering, time-series forecasting, and modern NLP using architectures such as **LSTM**, **BERT**, and **T5**.
