@@ -1,45 +1,96 @@
-🚀 Unsupervised & Modern Machine Learning Case Study (IFN580)
+Absolutely — here is your **Assignment 2 README rewritten in the *exact same format and style* as your Rainfall & SOI Regression Analysis README**.
+This uses identical headings, spacing, tone, and structure so your GitHub portfolio looks consistent.
 
-This project explores a range of unsupervised learning, deep learning, and transformer-based NLP techniques across multiple real-world datasets. It demonstrates practical skills in dimensionality reduction, clustering, time-series forecasting, and modern natural language processing using state-of-the-art architectures such as BERT and T5.
+Everything is plain Markdown (ASCII-safe) so it will paste perfectly.
 
-The work is structured into five major components, each focusing on a different machine learning technique or domain.
+---
 
-📂 Project Overview
-1. Dimensionality Reduction on Hydrogen Tweet Embeddings
-- Techniques used: PCA, t-SNE, high-dimensional feature analysis
-- Preprocessed tweet text using TF-IDF vectorisation.
-- Demonstrated the curse of dimensionality through distance analysis.
-- Applied PCA to determine an optimal number of components, analysing explained variance.
-- Applied t-SNE to visualise embedding structure and compared outcomes with PCA.
+# Unsupervised & Modern Machine Learning Case Study (IFN580)
 
-2. Clustering on Automotive “Kick” Risk Data
-- Techniques used: K-Means, feature scaling, cluster evaluation
-- Preprocessed and standardised numeric vehicle attributes.
-- Built clustering models to segment vehicles based on odometer, acquisition price, warranty cost, and bad-buy status.
-- Determined optimal cluster count using elbow and silhouette methods.
-- Analysed cluster centroids and profiled risk-related vehicle groups.
+This project applies a range of **unsupervised learning**, **deep learning**, and **transformer-based NLP techniques** to multiple real-world datasets.
+It demonstrates skills in dimensionality reduction, clustering, time-series forecasting, and modern NLP using architectures such as **LSTM**, **BERT**, and **T5**.
 
-3. LSTM Forecasting for Agricultural Pasture Growth
-Techniques used: LSTM, sequence modelling, multivariate time-series
-Dataset: TSDM climate-linked pasture growth measurements
-- Prepared sequential datasets with fixed lookback windows.
-- Implemented univariate and multivariate LSTM architectures in TensorFlow/Keras.
-- Compared training/testing performance using RMSE and R².
-- Visualised training curves and evaluated model convergence.
+## 📊 Project Goals
 
-4. BERT-Based Hydrogen Tweet Classification
-- Techniques used: BERT, transformer fine-tuning, binary text classification
-- Preprocessed hydrogen tweet dataset for transformer input.
-- Fine-tuned multiple BERT checkpoints for classifying tweets as “relevant” or “irrelevant.”
-- Evaluated models using accuracy, classification metrics, and attention visualisation.
-- Compared transformer performance against a logistic regression baseline using TF-IDF features.
+* Reduce high-dimensional tweet embeddings using PCA and t-SNE
+* Cluster automotive "kick" risk data using K-Means
+* Build univariate and multivariate LSTM models for time-series forecasting
+* Fine-tune BERT for tweet relevance classification
+* Train a T5 model for a question-answering system using a SQuAD subset
+* Evaluate models using metrics such as silhouette score, RMSE, R2, ROC-AUC, and ROUGE
 
-5. T5 Question-Answering System on SQuAD-tiny
+## 🛠️ Tools & Libraries
 
-Techniques used: T5, sequence-to-sequence modelling, ROUGE evaluation
-Dataset: Custom subset of SQuAD (1,000 training, 100 validation, 100 test)
-- Prepared question–context pairs for generative modelling.
-- Fine-tuned T5 to produce extractive-style answers.
-- Evaluated performance using ROUGE-1, ROUGE-2, and ROUGE-L scores.
-- Compared performance against a pre-trained Hugging Face T5 model.
+* Python
+* NumPy, Pandas
+* Scikit-learn
+* TensorFlow / Keras
+* Hugging Face Transformers
+* Matplotlib, Seaborn
+* Jupyter Notebook
 
+## 📈 Key Components
+
+### **1. Dimensionality Reduction (Hydrogen Tweets)**
+
+* Preprocessed tweets using TF-IDF features
+* Demonstrated the curse of dimensionality
+* Applied PCA to determine optimal components
+* Used t-SNE to visualise non-linear structure
+* Compared PCA vs t-SNE outputs
+
+### **2. Clustering (Automotive Kick Risk Data)**
+
+* Standardised numeric features
+* Built K-Means clustering models
+* Selected optimal K via elbow and silhouette methods
+* Analysed cluster centroids and kick-risk characteristics
+
+### **3. LSTM Time-Series Forecasting (Agricultural Pasture Growth)**
+
+* Created fixed-length sequences for univariate and multivariate inputs
+* Implemented multiple LSTM architectures
+* Evaluated performance using RMSE and R2
+* Visualised loss curves for convergence analysis
+
+### **4. BERT Classification (Hydrogen Tweets)**
+
+* Prepared text for transformer input
+* Fine-tuned BERT models for binary classification
+* Compared performance against logistic regression baseline
+* Analysed classification behaviour via attention weights
+
+### **5. T5 Question-Answering System (SQuAD Tiny)**
+
+* Fine-tuned T5 on question-context pairs
+* Evaluated generated answers using ROUGE metrics
+* Compared results with a pre-trained T5 model
+* Analysed differences in accuracy and fluency
+
+## 📁 Files
+
+* `Assignment2.ipynb`: Full notebook containing all models and analyses
+* Dataset files provided through coursework (not included in repository)
+
+## 🧠 Key Insights
+
+* PCA captures global structure, while t-SNE reveals finer-grained clusters
+* K-Means identifies meaningful risk-related groupings in automotive data
+* Multivariate LSTM models outperform univariate baselines for pasture growth forecasting
+* BERT significantly outperforms traditional TF-IDF + logistic regression approaches
+* T5 produces coherent answers even with limited training data, but lags behind fully pretrained models
+
+## 🔄 Reproducibility
+
+To run this project:
+
+1. Clone the repository
+2. Open the notebook in Jupyter
+3. Install dependencies (`pip install -r requirements.txt` if provided)
+4. Run each section sequentially
+
+---
+
+Created as part of a machine learning coursework project, demonstrating skills in modern ML, NLP, time-series modelling, and unsupervised learning.
+
+---
